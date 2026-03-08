@@ -73,3 +73,5 @@ function displayWeather(data){
 function showLoading(state){
     loading.classList.toggle("hidden", !state);
 }
+
+    

@@ -3,21 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Weather App</title>
 <link rel="stylesheet" href="./css/weather.css">
+<link rel="preload" as="image" href="./image/w.jpg">
 </head>
 
 <body>
 
 <div class="app">
-    <h1>Weather Dashboard</h1>
+
+    <h1>🌦 Weather Dashboard</h1>
+
+    <p class="subtitle">
+        Search any city in the world to see the current weather conditions,
+        temperature, humidity and wind speed.
+    </p>
 
     <div class="search-box">
-        <input type="text" id="cityInput" placeholder="Search city...">
+        <input 
+        type="text" 
+        id="cityInput" 
+        placeholder="Enter city name (Example: Chennai)">
+        
         <button id="searchBtn">Search</button>
     </div>
 
-    <div id="loading" class="hidden">Loading...</div>
+    <small class="hint">
+        Try searching: Chennai, London, Tokyo
+    </small>
+
+    <div id="loading" class="hidden">Loading weather data...</div>
 
     <div id="weatherCard" class="weather-card hidden">
         <h2 id="cityName"></h2>
@@ -32,6 +48,7 @@
     </div>
 
     <p id="errorMsg"></p>
+
 </div>
 
 <script src="./js/weather.js"></script>
