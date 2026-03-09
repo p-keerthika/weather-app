@@ -73,10 +73,15 @@ button:hover{
 
 .weather-card{
     margin-top:20px;
+    color: white;
+  
 }
 
 .details{
     display:flex;
     justify-content:space-between;
     margin-top:10px;
+    /* font-size:20px ; */
+    font-weight: bolder;
+   
 }
