@@ -1,0 +1,88 @@
+body{
+margin:0;
+padding:0;
+width:100%;
+overflow-x:hidden;
+scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #dc960a;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+padding: 0 40px;
+}
+
+.title{
+font-size:55px;
+font-weight:700;
+}
+
+.title span{
+color:#dc960a;
+}
+
+.role{
+color:#dc960a;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.desc{
+color:#e4dbdb;
+margin:20px 0;
+}
+
+.hero-img{
+width:350px;
+border-radius:10px;
+}
+
+.card{
+border:none;
+box-shadow:0 5px 12px rgba(0,0,0,0.15);
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.projects-section{
+background:#f3f3f3;
+padding:80px 0;
+}
+
+.project-title{
+font-size:40px;
+font-weight:bold;
+margin-bottom:60px;
+}
+
+.project-row{
+margin-bottom:80px;
+}
+
+.project-img{
+width:85%;
+height: 400px;
+border-radius:15px;
+}
+
+.project-row h3{
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.project-row p{
+color:#d6c4c4;
+margin-bottom:20px;
+}
+
+#contact{
+min-height:90vh;
+padding: 0 40px;
+}
